@@ -7,6 +7,24 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form action="login" method="post">
+<table align="center" border="2">
 
+<tr>
+<td><label for="usuario">Usuario:</label></td>
+<td><input type="text" id="usuario" name="usuario"></td>
+</tr>
+
+<tr>
+<td><label for="password">Contraseña:</label></td>
+<td><input type="password" id="password" name="password"></td>
+</tr>
+
+<tr>
+<td colspan="2"  align="center"><input type="submit" value="Login"></td>
+</tr>
+
+</table>
+</form>
 </body>
 </html>
