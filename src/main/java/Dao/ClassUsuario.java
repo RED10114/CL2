@@ -31,6 +31,8 @@ public class ClassUsuario implements IUsuario{
 
 
     return null;
+	}finally{
+		em.close();
 	}
 	}
 	}
